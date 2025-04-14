@@ -1,0 +1,20 @@
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.naive_bayes import MultinomialNB
+url = "https://raw.githubusercontent.com/justmarkham/pycon-2016-tutorial/master/data/sms.tsv"
+data = pd.read_csv(url, sep='\\t', header=None, names=['label', 'message'])
+data['label_num'] = data.label.map({'ham': 0, 'spam': 1})
+X = data['message']
+y = data['label_num']
+vectorizer = CountVectorizer()
+X_vectorized = vectorizer.fit_transform(X)
+X_train, X_test, y_train, y_test = train_test_split(X_vectorized, y, test_size=0.2, random_state=42)
+model = MultinomialNB()
+model.fit(X_train, y_train)
+custom_email = input("Enter your email message: ")
+custom_vector = vectorizer.transform([custom_email])
+prediction = model.predict(custom_vector)[0]
+print("
+🔍 The message is forecast to be:",
+"📬 HAM (Not Spam)" if prediction == 0 else "🚫 SPAM")
