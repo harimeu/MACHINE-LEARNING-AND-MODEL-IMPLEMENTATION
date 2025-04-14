@@ -16,3 +16,10 @@ DESCRIPTION:I DID A PYTHON CODE IN JUPITOR NOTEBOOK ON FINDING THE GIVE EMAIL IS
             TRAINING SET (80%) AND A TEST SET (20%) TO TRAIN AND EVALUATE THE MODEL'S PERFORMANCE.WE USED NAIVE
             BAYES CLASSIFIER ON TRAINING CLASSIFIER,USED FOR SPAM DETECTION.WE EVALUATE ACCURACY,CLASSIFIATION REPORT,
             CONFUSION MATRIX AS THE OUTPUT.SO IN OUTPUT WE FOUND IF THE MESSAGE IS SPAM OR HAM
+![Image](https://github.com/user-attachments/assets/77285481-7c89-4692-93cc-55e4b20165d5)
+
+![Image](https://github.com/user-attachments/assets/ed44eb6b-cd85-461f-bd2e-034a45621595)
+
+![Image](https://github.com/user-attachments/assets/f0b9256b-42b6-4c51-bea6-6a8f5ccaf6a8)
+
+![Image](https://github.com/user-attachments/assets/35febaca-bd70-47fe-970e-bbe49dd147cf)
