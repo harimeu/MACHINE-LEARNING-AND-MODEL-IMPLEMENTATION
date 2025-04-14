@@ -24,3 +24,4 @@ DESCRIPTION:I DID A PYTHON CODE IN JUPITOR NOTEBOOK ON FINDING THE GIVE EMAIL IS
 ![Image](https://github.com/user-attachments/assets/f0b9256b-42b6-4c51-bea6-6a8f5ccaf6a8)
 
 ![Image](https://github.com/user-attachments/assets/35febaca-bd70-47fe-970e-bbe49dd147cf)
+![Image](https://github.com/user-attachments/assets/0a66db1f-7856-41f8-a3ba-65f00e204418)
